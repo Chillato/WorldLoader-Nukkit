@@ -1,0 +1,15 @@
+name: WorldLoader
+version: 1.0
+main: me.chillatodev.main
+author: ChillatoDev
+api: 1.0.0
+
+commands:
+  wl:
+    description: "views worlds"
+    permission: wl.use
+
+permissions:
+  wl.use:
+    description: commands wl
+    default: op
